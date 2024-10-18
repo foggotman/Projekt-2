@@ -60,7 +60,7 @@ public class Student {
         for (int index : studentGrades) {
             average += index;
         }
-        return (double) average / 3;
+        return (double) average / studentGrades.length;
     }
 
     // Metode til at genere RANDOM answers og convertere det til A B C D, og gemme det i et array.
